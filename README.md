@@ -19,7 +19,7 @@ Over to:
 ```
 
 ## WIP
-- [x]  A clean up portion of the script that removes all the uninstaller.lnk files.  
+- [x]  A clean up portion of the script that removes all the uninstaller.lnk files.
+- [x]  Add new "Applications" folder to quick access in File Explorer (PowerShell only)  
+- [ ]  Deskop shortcut clean up (Moves any desktop shortcuts to %ProgramsData%)
 - [ ]  Auto run of some sorts after every boot up or after an installer is complete
-- [ ]  Deskop shortcuts to %ProgramsData% for a cleaner desktop
-- [ ]  Opens parent Programs folder once script is done so you can add it to the quick access in File Explorer --or-- Auto add Programs folder to quick access
