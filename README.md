@@ -5,7 +5,7 @@ Forcing a macOS feature on Windows <br>
 Windows start menu is fucken garbage. Folders with useless shit get piled up in there all the time even when you clearly check mark the "DO NOT MAKE START MENU FOLDER" button on installers. This script hopes to fix the miss steps and provide "mac-esqu" Apps folder experience using windows already established programs folder directories. This is a hacked together script with no fancy gui and some manual clean up is still needed but at least 90% of the job is already done. <br>
 
 ## How?
-A batch file (.bat). You're going to need to run the script as an admin by right clicking Run As Administrator. The script's workings can be viewed in the repos contents if you’d like to go over what exactly it's doing.
+A batch file (.bat). You're going to need to run the script as an admin by right clicking Run As Administrator. The script's workings can be viewed in the repos contents if you’d like to go over what exactly it's doing. There's both a Powershell.ps1 and ComandPrompt.bat.
 
 ## Before You Run This
 This script is really only suitable if you're the only one using the windows machine. As in there are no other users on the machine (hasn’t been extensively tested if it works at all with multiple users). The script simply copies the contents from:
