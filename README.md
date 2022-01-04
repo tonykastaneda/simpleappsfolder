@@ -21,5 +21,10 @@ Over to:
 ## WIP
 - [x]  A clean up portion of the script that removes all the uninstaller.lnk files.
 - [x]  Add new "Applications" folder to quick access in File Explorer (PowerShell only)  
-- [ ]  Deskop shortcut clean up (Moves any desktop shortcuts to %ProgramsData%)
+- [ ]  Deskop shortcut clean up (Moves any desktop shortcuts to %ProgramData%\Microsoft\Windows\Start Menu\Programs)
 - [ ]  Auto run of some sorts after every boot up or after an installer is complete
+- [ ]  Remove unessisary sub folders in %ProgramData%\Microsoft\Windows\Start Menu\Programs 
+
+## Inconsistencies
+- Windows Proprietary Tools such as cmd, Powershell, Run, This PC, etc. and other executables of the same nature is still a manual clean up.
+- Sub folders still linger and need a manual clean up
