@@ -42,7 +42,8 @@ Once all is done the script adds a Quick Acess link in the File Explorer that ac
 - [x]  Auto remove unessisary and empty sub folders in C:\ProgramData\Microsoft\Windows\Start Menu\Programs 
 - [ ]  Auto runner after every boot or log off 
 
-## Inconsistencies
+## Inconsistencies & Known issues
+- **.url for web readme's also populate the Start Menu and Programs folder. Given that some .url files are Program shortcuts I haven't found a way to circumvent this issue yet.**
 - Windows Proprietary Tools and Accessibility Tools such as cmd, Powershell, Run, This PC, etc. and other executables of the same nature still require a manual clean up.
 - Some Sub folder directories still linger and would need a manual clean up (Might now show up in Start Menu given that they are empty)
 - Copies of Shortcuts such that Program Name (2).lnk can be created from time to time
