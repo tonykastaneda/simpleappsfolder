@@ -15,6 +15,13 @@ del *uninstall*;
 # Recursivley moves programs and removes it's empty folder residue with in the newly alocated Programs folder - https://stackoverflow.com/q/38063424
 Get-ChildItem -Path ./ -Recurse -File | Move-Item -Destination ./ ; Get-ChildItem -exclude *Windows Toosl* -Path ./ -Recurse -Directory | Remove-Item;
 
+# Desktop Shortcut bunder and cleaner
+## WIP
+
+# Shortcut Copy cleaner
+## WIP
+
+
 
 
 
