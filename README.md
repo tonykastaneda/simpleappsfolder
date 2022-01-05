@@ -48,5 +48,5 @@ Once all is done the script adds a Quick Acess link in the File Explorer that ac
 - Copies of Shortcuts such that Program Name (2).lnk can be created from time to time
 
 
-
-USE AT YOUR OWN RISK. (Though no computer I've personally tested this on has spontaneously combusted there is a disclaimer)
+### DISCLAIMER & .BAT SCRIPT
+USE THESE SCRIPTS AT YOUR OWN RISK. Though no computer I've personally tested this on has spontaneously combusted. This script gose no where near a Programs uninstall executable or its actual install directory thus Program coruption isn't possible. The .bat version of the script is for legacy OS's such as Vista and below, this version of the script runs in the older CMD and needs a right click Run as Administrator to work properly. This version doesn't contain any of "fancy" stuff this includes the Quick Acess creation and residue folder clean up.  
