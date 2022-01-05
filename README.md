@@ -33,12 +33,13 @@ This script then removes its empty folders and uninstallers from the Start Menu.
 Once all is done the script adds a Quick Acess link in the File Explorer that acts like the macOS Applications folder. This Folder is called Programs <br>
 
 ## WIP
-- [x]  Auto cleaner that removes all the uninstaller.lnk files.
+- [x]  Auto cleaner that removes all the uninstaller.lnk files
+- [ ]  Auto cleaner that removes all non .lnk files
 - [x]  Auto add new centralized Programs folder to Quick Access in File Explorer
 - [x]  Recursivley check and move Steam's proprietary *.url shortcuts in the same directories
-- [x]  Auto remove unessisary and empty sub folders in C:\ProgramData\Microsoft\Windows\Start Menu\Programs 
 - [ ]  Deskop shortcut clean up (Moves any Desktop Shortcuts to the new Programs Folder)
 - [ ]  Move all Windows Specific apps (Powershell, Run, This PC, etc.) in it's own folder akin to the Utilities Folder in macOS
+- [x]  Auto remove unessisary and empty sub folders in C:\ProgramData\Microsoft\Windows\Start Menu\Programs 
 - [ ]  Auto runner after every boot or log off 
 
 ## Inconsistencies
